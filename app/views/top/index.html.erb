@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>kanban</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<p>このページは仮のトップページです。</p>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
-  <body>
-
-    
-    <header class="header">
-      <nav class="nav">
-        <ul class="header_menu">
-          <li class="nav-link">〇〇さん</li>
-          <li class="header_menu_title"><%= link_to "kanban", root_path, class: "nav-link" %></li>
-          <li>
-            <ul class="header_menu_inner">
-              <li><%= link_to "リストを作成", "#", class: "nav-link listNew" %></li>
-              <li><%= link_to "サインアウト", "#", class: "nav-link" %></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  
-
-    <%= yield %>
-  </body>
-</html>
+<%# ここに追加する %>
+<%= link_to "仮のボタンです", "#", class: "btn btn-primary" %>
