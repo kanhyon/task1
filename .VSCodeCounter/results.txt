@@ -1,0 +1,110 @@
+Date : 2020-06-13 13:46:26
+Directory : /Users/kanhyon/ruby/task/app
+Total : 54 files,  784 codes, 54 comments, 102 blanks, all 940 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| erb        |         24 |        369 |          0 |         66 |        435 |
+| SCSS       |         10 |        279 |         29 |          7 |        315 |
+| Ruby       |         16 |        128 |          6 |         20 |        154 |
+| JavaScript |          4 |          8 |         19 |          9 |         36 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         54 |        784 |         54 |        102 |        940 |
+| assets                                                                                |         11 |        279 |         31 |          8 |        318 |
+| assets/config                                                                         |          1 |          0 |          2 |          1 |          3 |
+| assets/stylesheets                                                                    |         10 |        279 |         29 |          7 |        315 |
+| assets/stylesheets/card                                                               |          3 |         56 |          0 |          1 |         57 |
+| assets/stylesheets/list                                                               |          2 |         12 |          0 |          0 |         12 |
+| channels                                                                              |          2 |          8 |          0 |          2 |         10 |
+| channels/application_cable                                                            |          2 |          8 |          0 |          2 |         10 |
+| controllers                                                                           |          4 |         87 |          0 |          7 |         94 |
+| helpers                                                                               |          4 |          8 |          0 |          4 |         12 |
+| javascript                                                                            |          3 |          8 |         17 |          8 |         33 |
+| javascript/channels                                                                   |          2 |          4 |          4 |          5 |         13 |
+| javascript/packs                                                                      |          1 |          4 |         13 |          3 |         20 |
+| jobs                                                                                  |          1 |          2 |          4 |          2 |          8 |
+| mailers                                                                               |          1 |          4 |          0 |          1 |          5 |
+| models                                                                                |          4 |         19 |          2 |          4 |         25 |
+| views                                                                                 |         24 |        369 |          0 |         66 |        435 |
+| views/card                                                                            |          3 |         63 |          0 |          0 |         63 |
+| views/devise                                                                          |         14 |        202 |          0 |         56 |        258 |
+| views/devise/confirmations                                                            |          1 |         12 |          0 |          5 |         17 |
+| views/devise/mailer                                                                   |          5 |         20 |          0 |         15 |         35 |
+| views/devise/passwords                                                                |          2 |         32 |          0 |         11 |         43 |
+| views/devise/registrations                                                            |          2 |         67 |          0 |         10 |         77 |
+| views/devise/sessions                                                                 |          1 |         20 |          0 |          2 |         22 |
+| views/devise/shared                                                                   |          2 |         39 |          0 |          8 |         47 |
+| views/devise/unlocks                                                                  |          1 |         12 |          0 |          5 |         17 |
+| views/layouts                                                                         |          3 |         37 |          0 |          8 |         45 |
+| views/list                                                                            |          2 |         24 |          0 |          0 |         24 |
+| views/partial                                                                         |          1 |         14 |          0 |          2 |         16 |
+| views/top                                                                             |          1 |         29 |          0 |          0 |         29 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                              | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/kanhyon/ruby/task/app/assets/config/manifest.js                                | JavaScript |          0 |          2 |          1 |          3 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/application.scss                      | SCSS       |         10 |         15 |          1 |         26 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/card.scss                             | SCSS       |         10 |          3 |          0 |         13 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/card/edit.scss                        | SCSS       |          9 |          0 |          0 |          9 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/card/new.scss                         | SCSS       |          9 |          0 |          0 |          9 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/card/show.scss                        | SCSS       |         38 |          0 |          1 |         39 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/custom.scss                           | SCSS       |        129 |          5 |          4 |        138 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/list.scss                             | SCSS       |          0 |          3 |          1 |          4 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/list/edit.scss                        | SCSS       |          6 |          0 |          0 |          6 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/list/new.scss                         | SCSS       |          6 |          0 |          0 |          6 |
+| /Users/kanhyon/ruby/task/app/assets/stylesheets/top.scss                              | SCSS       |         62 |          3 |          0 |         65 |
+| /Users/kanhyon/ruby/task/app/channels/application_cable/channel.rb                    | Ruby       |          4 |          0 |          1 |          5 |
+| /Users/kanhyon/ruby/task/app/channels/application_cable/connection.rb                 | Ruby       |          4 |          0 |          1 |          5 |
+| /Users/kanhyon/ruby/task/app/controllers/application_controller.rb                    | Ruby       |         10 |          0 |          3 |         13 |
+| /Users/kanhyon/ruby/task/app/controllers/card_controller.rb                           | Ruby       |         38 |          0 |          1 |         39 |
+| /Users/kanhyon/ruby/task/app/controllers/list_controller.rb                           | Ruby       |         34 |          0 |          2 |         36 |
+| /Users/kanhyon/ruby/task/app/controllers/top_controller.rb                            | Ruby       |          5 |          0 |          1 |          6 |
+| /Users/kanhyon/ruby/task/app/helpers/application_helper.rb                            | Ruby       |          2 |          0 |          1 |          3 |
+| /Users/kanhyon/ruby/task/app/helpers/card_helper.rb                                   | Ruby       |          2 |          0 |          1 |          3 |
+| /Users/kanhyon/ruby/task/app/helpers/list_helper.rb                                   | Ruby       |          2 |          0 |          1 |          3 |
+| /Users/kanhyon/ruby/task/app/helpers/top_helper.rb                                    | Ruby       |          2 |          0 |          1 |          3 |
+| /Users/kanhyon/ruby/task/app/javascript/channels/consumer.js                          | JavaScript |          2 |          2 |          3 |          7 |
+| /Users/kanhyon/ruby/task/app/javascript/channels/index.js                             | JavaScript |          2 |          2 |          2 |          6 |
+| /Users/kanhyon/ruby/task/app/javascript/packs/application.js                          | JavaScript |          4 |         13 |          3 |         20 |
+| /Users/kanhyon/ruby/task/app/jobs/application_job.rb                                  | Ruby       |          2 |          4 |          2 |          8 |
+| /Users/kanhyon/ruby/task/app/mailers/application_mailer.rb                            | Ruby       |          4 |          0 |          1 |          5 |
+| /Users/kanhyon/ruby/task/app/models/application_record.rb                             | Ruby       |          3 |          0 |          1 |          4 |
+| /Users/kanhyon/ruby/task/app/models/card.rb                                           | Ruby       |          5 |          0 |          1 |          6 |
+| /Users/kanhyon/ruby/task/app/models/list.rb                                           | Ruby       |          5 |          0 |          1 |          6 |
+| /Users/kanhyon/ruby/task/app/models/user.rb                                           | Ruby       |          6 |          2 |          1 |          9 |
+| /Users/kanhyon/ruby/task/app/views/card/edit.html.erb                                 | erb        |         22 |          0 |          0 |         22 |
+| /Users/kanhyon/ruby/task/app/views/card/new.html.erb                                  | erb        |         19 |          0 |          0 |         19 |
+| /Users/kanhyon/ruby/task/app/views/card/show.html.erb                                 | erb        |         22 |          0 |          0 |         22 |
+| /Users/kanhyon/ruby/task/app/views/devise/confirmations/new.html.erb                  | erb        |         12 |          0 |          5 |         17 |
+| /Users/kanhyon/ruby/task/app/views/devise/mailer/confirmation_instructions.html.erb   | erb        |          3 |          0 |          3 |          6 |
+| /Users/kanhyon/ruby/task/app/views/devise/mailer/email_changed.html.erb               | erb        |          6 |          0 |          2 |          8 |
+| /Users/kanhyon/ruby/task/app/views/devise/mailer/password_change.html.erb             | erb        |          2 |          0 |          2 |          4 |
+| /Users/kanhyon/ruby/task/app/views/devise/mailer/reset_password_instructions.html.erb | erb        |          5 |          0 |          4 |          9 |
+| /Users/kanhyon/ruby/task/app/views/devise/mailer/unlock_instructions.html.erb         | erb        |          4 |          0 |          4 |          8 |
+| /Users/kanhyon/ruby/task/app/views/devise/passwords/edit.html.erb                     | erb        |         20 |          0 |          6 |         26 |
+| /Users/kanhyon/ruby/task/app/views/devise/passwords/new.html.erb                      | erb        |         12 |          0 |          5 |         17 |
+| /Users/kanhyon/ruby/task/app/views/devise/registrations/edit.html.erb                 | erb        |         33 |          0 |         10 |         43 |
+| /Users/kanhyon/ruby/task/app/views/devise/registrations/new.html.erb                  | erb        |         34 |          0 |          0 |         34 |
+| /Users/kanhyon/ruby/task/app/views/devise/sessions/new.html.erb                       | erb        |         20 |          0 |          2 |         22 |
+| /Users/kanhyon/ruby/task/app/views/devise/shared/_error_messages.html.erb             | erb        |         15 |          0 |          1 |         16 |
+| /Users/kanhyon/ruby/task/app/views/devise/shared/_links.html.erb                      | erb        |         24 |          0 |          7 |         31 |
+| /Users/kanhyon/ruby/task/app/views/devise/unlocks/new.html.erb                        | erb        |         12 |          0 |          5 |         17 |
+| /Users/kanhyon/ruby/task/app/views/layouts/application.html.erb                       | erb        |         24 |          0 |          5 |         29 |
+| /Users/kanhyon/ruby/task/app/views/layouts/mailer.html.erb                            | erb        |         12 |          0 |          2 |         14 |
+| /Users/kanhyon/ruby/task/app/views/layouts/mailer.text.erb                            | erb        |          1 |          0 |          1 |          2 |
+| /Users/kanhyon/ruby/task/app/views/list/edit.html.erb                                 | erb        |         12 |          0 |          0 |         12 |
+| /Users/kanhyon/ruby/task/app/views/list/new.html.erb                                  | erb        |         12 |          0 |          0 |         12 |
+| /Users/kanhyon/ruby/task/app/views/partial/_header.html.erb                           | erb        |         14 |          0 |          2 |         16 |
+| /Users/kanhyon/ruby/task/app/views/top/index.html.erb                                 | erb        |         29 |          0 |          0 |         29 |
+| Total                                                                                 |            |        784 |         54 |        102 |        940 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
