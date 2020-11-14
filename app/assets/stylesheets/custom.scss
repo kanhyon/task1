@@ -9,7 +9,7 @@ body {
   
   // header
   .header {
-    background: #026aa7;
+    background: grey;
     padding: 10px;
     .nav {
       .header_menu {
@@ -136,3 +136,22 @@ body {
     }
   }
 }
+
+//footer
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+  .footer_ul{
+  display: flex;
+        width: 100%;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        
+  }
+  .footer_ul li{
+        list-style: none;
+  }
+  

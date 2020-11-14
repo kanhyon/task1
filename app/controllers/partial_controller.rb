@@ -1,0 +1,3 @@
+class PartialController < ApplicationController
+   
+end
